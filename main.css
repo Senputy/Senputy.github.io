@@ -1,0 +1,68 @@
+* {
+    font-family: Cambria;
+}
+
+body {
+	background-color: #DDDDDD;
+}
+
+h1 {
+    overflow: hidden;
+	font-size: 275%;
+	padding: 7.5em;
+	text-align: center;
+	background-color:#DDDDDD;
+	display: block;
+    margin: 0em;
+}
+
+.gold {
+	z-index: 5;
+	margin: 0em;
+    overflow-x: hidden;
+	font-weight: bold;
+	border-bottom: 0.1em solid #DDDDDD;
+	text-align: center;
+    background-color: #abc3ea;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	left: 0;
+	padding: 1.4em;
+}
+
+a {
+	text-decoration: none;
+	padding: 20px;
+	font-size: 25px;
+	color: black;
+}
+
+h3 {
+    overflow: hidden;
+    text-align: center;
+    font-size: 22px;
+    padding: 5em;
+}
+
+.silver p {
+    padding: 2em;
+    height: 3.5em;
+    background-color: #DDDDDD;
+    margin: 0em;
+	font-size: 25px;
+}
+
+.silver h3 {
+ 	background-color: #abc3ea;
+    margin: 0em;
+	font-size: 35px;
+}
+
+.bronze {
+  padding-bottom: 5em;
+  background-color: #DDDDDD;
+}
+
+
+

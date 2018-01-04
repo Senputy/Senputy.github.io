@@ -1,0 +1,119 @@
+.container {
+   width: 80%;
+   padding: 50px 0;
+   margin: 50px auto; 
+   text-align: justify;
+}
+
+.container:before {
+   content: '';
+   position: absolute;
+   top: 90%;
+   left: 50%;
+   width: 2px;
+   height: 815%;
+   background: #abc3ea;
+   overflow: hidden;
+}
+
+.timeline-block {
+   width: -moz-calc(50% + 8px);
+   width: calc(50% + 8px);
+}
+
+.timeline-block-right {
+   float: right;
+
+}
+
+.timeline-block-left {
+   float: left;
+   direction: rtl
+}
+
+.timeline-content {
+   width: 95%;
+   padding: 0 15px;
+   color: #000000;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h4 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+.boron {
+	font-size: 17px;
+	text-align: center;
+}
+
+.helium {
+    position: relative;
+	right: 50px;
+}
+
+.neon {
+    position: relative;
+    right: -40px;
+}
+
+.argon {
+	position: relative;
+    right: 40px;
+}
+
+.krypton {
+	position: relative;
+    right: -60px;
+}
+
+.xenon {
+	position: relative;
+    right: 60px;
+}
+
+.radon {
+	position: relative;
+    right: -80px;
+}
+
+.flourine {
+    right: 50px;
+	position: relative;
+}
+
+.chlorine {
+    right: -50px;
+	position: relative;
+}
+
+.bromine {
+    right: 60px;
+	position: relative;
+}
+
+.hydrogen {
+	text-align: left;
+	font-size: 18px;
+	padding-bottom: 50px;
+	margin: 50px;
+}
+
+h6 {
+	font-size:18px;
+	text-align: center;
+}
+
+.lithium{
+	font-size: 15px;
+}
